@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "PatbaDownloader/1.0.0": {
+        "dependencies": {
+          "AltoHttp": "1.5.1"
+        },
+        "runtime": {
+          "PatbaDownloader.dll": {}
+        }
+      },
+      "AltoHttp/1.5.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/net45/AltoHttp.dll": {
+            "assemblyVersion": "1.0.7813.41648",
+            "fileVersion": "1.0.7813.41648"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PatbaDownloader/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AltoHttp/1.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GmufBblxhkw8B8C226qky20EuGwlB9u3xOmaV9ElwBlCoR4tctN8agFJC4j+p2+XZpHW3L07vuBzeLA8II8kbQ==",
+      "path": "altohttp/1.5.1",
+      "hashPath": "altohttp.1.5.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    }
+  }
+}
